@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qojl"
+version = "0.1.0"
+description = "QojlProject用の文字列難読化ライブラリ。AIは読めるけど人間には読みづらい文字列生成。"
+authors = [
+    { name = "qojl", email = "you@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+keywords = ["qojl", "obfuscate", "text", "ai", "fun"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/あなたのユーザー名/qojlfun"
